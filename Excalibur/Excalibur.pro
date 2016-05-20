@@ -1,12 +1,6 @@
-TEMPLATE = app
-CONFIG += console c++11
-CONFIG -= app_bundle
-CONFIG -= qt
+TEMPLATE = subdirs
 
-SOURCES += main.cpp \
-    src/Excalibur.cpp \
-    src/interpreter.cpp
-
-HEADERS += \
-    src/Excalibur.h \
-    src/interpreter.h
+SUBDIRS += \
+    Interpreter \
+    Launcher \
+    GUI

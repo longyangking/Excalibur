@@ -3,6 +3,7 @@
 
 ## Requirements
 + Numpy, Scipy, Numba
++ PyCUDA (optional, only for GPU)
 
 ## Status
 Working on it...

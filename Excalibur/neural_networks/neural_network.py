@@ -12,7 +12,7 @@ class NeuralNetwork:
             number, activation_func = info
             numbers.append(number)
             activation_funcs.append(activation_func)
-        numbers.append[output_dim]
+        numbers.append(output_dim)
 
         layers = list()
         for i in range(1, len(numbers)+1):

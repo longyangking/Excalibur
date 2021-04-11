@@ -1,5 +1,5 @@
 # Excalibur
-> Home-made machine learing framework, for learning
+> Home-made machine learing framework based on [Scikit-Learn](https://scikit-learn.org/), just for learning
 
 ## Requirements
 + Numpy, Scipy
